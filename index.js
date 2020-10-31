@@ -17,6 +17,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(routes);
 
-app.listen(3001, () => {
+app.listen(PORT, () => {
   console.log('Server started listening on PORT http://localhost:3001');
 });
